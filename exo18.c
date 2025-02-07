@@ -24,10 +24,10 @@ int main()
     }
     else if (a!=0 && b!=0 && a<b)
     {
-        r=b%a;
+        r = b % a;
         while (r!=0)
         {
-            r=b%a;
+            r = b % a;
             b = a;
             a = r;
             i++;
