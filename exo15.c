@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(int argc, char *argv[])
+int main()
 {
 	int n,i;
 	int S=0;
@@ -14,5 +14,5 @@ int main(int argc, char *argv[])
 	    S=S+pow(10,i);
 	}
 	printf("10^%d=%d",n,S);
-	return 0;
+	return (0);
 }
