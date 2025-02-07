@@ -39,5 +39,5 @@ int main()
         printf("On a dit non nul!\nRéessayer\n");
         goto ici;
     }
-    return 0;
+    return (0);
 }
