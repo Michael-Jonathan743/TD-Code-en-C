@@ -2,22 +2,25 @@
 
 int main()
 {
-	int i, max=0, T[]={5,9,7};
-	int *p;
-	p=T;
-	for(i=0;i<3;i++)
-	{
-	    if(T[i]>T[i+1])
-	    {
-	        *p=T[i];
-	        max=*p;
-	    }
-	    else 
-	    {
-	        *p=T[i+1];
-	        max=*p;
-	    }
-	}
-	    printf("Le max est %d",max);
+	int a,b,c,max;
+ printf("Veuillez saisir trois nombres: \na: ");
+ scanf("%d",&a);
+ printf("b: ");
+ scanf("%d",&b);
+ printf("c: ");
+ scanf("%d",&C);
+ if ( a < c && b < c )
+ {
+     max=c;
+ }
+ else if ( a < b && c < b )
+ {
+     max=b;
+ }
+ else if ( b < a && c < a)
+ {
+     max=a;
+ }
+	    printf("Le maximum est %d",max);
 	return (0);
 }
