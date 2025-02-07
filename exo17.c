@@ -22,5 +22,5 @@ int main()
         j++;
     }
     printf("= %f",c);
-    return 0;
+    return (0);
 }
