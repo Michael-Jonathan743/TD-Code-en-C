@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int main()
 {
 	int i, max=0, T[]={5,9,7};
 	int *p;
